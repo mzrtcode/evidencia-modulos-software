@@ -1,9 +1,3 @@
-<%-- 
-    Document   : listar
-    Created on : Jun 28, 2023, 4:43:37 PM
-    Author     : silenz
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
