@@ -89,8 +89,17 @@ public class Empleado {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
-    
-    
-    
-    
+
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "id=" + id +
+                ", nombres='" + nombres + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", correo='" + correo + '\'' +
+                ", celular='" + celular + '\'' +
+                ", fecha_nacimiento=" + fecha_nacimiento +
+                ", direccion='" + direccion + '\'' +
+                '}';
+    }
 }
